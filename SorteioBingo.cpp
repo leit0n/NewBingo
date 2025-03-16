@@ -9,7 +9,7 @@ SorteioBingo::SorteioBingo(int quantidade, const string& modo) : quantidadeNumer
 void SorteioBingo::sortearNumero() {
     while (numerosSorteados.size() < quantidadeNumeros) {
         if (modoSorteio == "manual") {
-            cout << "Pressione Enter para sortear o próximo número." << endl;
+            cout << "Enter para sortear o próximo número." << endl;
             cin.ignore();
         }
 

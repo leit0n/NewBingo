@@ -17,7 +17,7 @@ int main() {
     int quantidadeNumeros;
     cin >> quantidadeNumeros;
 
-    cout << "Digite a quantidade de cartões a serem gerados: ";
+    cout << "Escolha a quantidade de cartões a serem criados: ";
     int quantidadeCartoes;
     cin >> quantidadeCartoes;
 
